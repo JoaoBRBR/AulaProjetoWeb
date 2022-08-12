@@ -1,3 +1,2 @@
 # AulaProjetoWeb
-Aula do SENAC desenvolvedor web
-briefing e mapa mental
+Nesse repositório posto exercícios do curso do senac de desenvolvedor web.
