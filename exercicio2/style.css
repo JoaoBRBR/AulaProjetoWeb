@@ -1,0 +1,140 @@
+*{
+    margin:0;
+}
+
+body {
+    background: linear-gradient(to left top, rgb(0, 67, 8), rgb(160, 249, 159));
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.fonte{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo{
+    font-size:30px;
+}
+
+.cabecalho{
+    background-color: rgb(171, 255, 171);
+    box-shadow: 5px 5px 35px 14px rgba(4, 95, 22, 0.94);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.grande{
+    font-size:40px;
+}
+
+.medio{
+    font-size:20px;
+}
+
+.centro{
+    justify-content: center;
+    flex:center;
+    text-align: center;
+    margin-top:20px;
+}
+
+.margem{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: auto;
+}
+
+.corBranco{
+    color:white; 
+}
+
+#cardapio{
+    padding-top:10px;
+    flex:center;
+    margin:auto;
+    background-color: green;
+    border-radius: 40px;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.imageBaner{
+    flex:center;
+    margin:auto;
+    margin-bottom: 50px;
+    background-color: green;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+
+.imageBaner:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 5px 5px;
+}
+
+.imageFooter{
+    flex:center;
+    margin:auto;
+    background-color: green;
+    border-radius: 10px;
+    width:auto;
+    height: auto;
+    transition: 1s;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #42bb24;
+  }
+
+
+.pai{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.filho{
+    float: left;
+    margin: 10px;
+    transition: 1s;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    min-width: 150px;
+    min-height: 300px;
+    background-color: #42bb24;
+    transition: 1s;
+}
+
+.filho:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 5px 5px;
+}
